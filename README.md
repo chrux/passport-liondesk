@@ -49,3 +49,9 @@ passport.use(new LionDeskStrategy({
   }
 ));
 ```
+
+## License
+
+[The MIT License](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2018 Christian Torres <[http://christiantorres.me/](http://christiantorres.me/)>
