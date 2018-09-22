@@ -50,6 +50,10 @@ passport.use(new LionDeskStrategy({
 ));
 ```
 
+## Credits
+
+  - [Jared Hanson](http://github.com/jaredhanson)
+
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
