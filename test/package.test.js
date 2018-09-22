@@ -1,4 +1,4 @@
-/* global describe, it */
+/* global describe, it, expect */
 'use strict';
 
 const strategy = require('..');

@@ -1,4 +1,4 @@
-/* global describe, it */
+/* global describe, it, before, expect */
 'use strict';
 
 const Profile = require('../lib/profile');
@@ -8,8 +8,8 @@ describe('Profile.parse', function() {
   var profile;
 
   before(function(done) {
-    const response = require('./fixtures/users');
-    profile = Profile.parse(response);
+    const body = require('./fixtures/users');
+    profile = Profile.parse(body);
     done();
   });
   
